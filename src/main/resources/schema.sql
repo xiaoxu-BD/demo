@@ -1,0 +1,7 @@
+CREATE TABLE user_info (
+    id BIGINT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(256) NOT NULL,
+    id_number VARCHAR(256) NOT NULL,
+    phone VARCHAR(256) NOT NULL,
+    address VARCHAR(512) NOT NULL
+);
